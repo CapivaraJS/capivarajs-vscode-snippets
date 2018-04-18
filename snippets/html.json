@@ -1,0 +1,79 @@
+{
+	"cp-class": {
+		"prefix": "cp-class",
+		"body": [
+			"cp-class=\"{ 'myClass' : true }\""
+		],
+		"description": "Você pode modificar dinâmicamente as classes dentro do seu componente"
+	},
+	"cp-click": {
+		"prefix": "cp-click",
+		"body": [
+			"cp-click=\"\""
+		],
+		"description": "Executar uma função do seu escopo."
+	},
+	"cp-if": {
+		"prefix": "cp-if",
+		"body": [
+			"cp-if=\"\""
+		],
+		"description": "Mostrar ou ocultar elementos de acordo com uma condição."
+	},
+	"cp-else-if": {
+		"prefix": "cp-else-if",
+		"body": [
+			"cp-else-if=\"\""
+		],
+		"description": "Deve ser utilizado logo após a diretiva cpIf e outras diretivas CpElseIf, ela é visível quando o cpIf retornar falso e a condição da diretiva cpElseIf retorna verdadeiro"
+	},
+	"cp-else": {
+		"prefix": "cp-else",
+		"body": [
+			"cp-else=\"\""
+		],
+		"description": "Deve ser utilizado logo após a diretiva cpIf, ela é visível quando o cpIf retornar falso em sua condição."
+	},
+	"cp-init": {
+		"prefix": "cp-init",
+		"body": [
+			"cp-init=\"\""
+		],
+		"description": "Permite a execução de uma função quando um determinado elemento for renderizado."
+	},
+	"cp-model": {
+		"prefix": "cp-model",
+		"body": [
+			"cp-model=\"\""
+		],
+		"description": "Possibilita a interação do seu escopo com as input, quando usamos cp-model toda modificação de uma input é aplicada no escopo. "
+	},
+	"cp-repeat": {
+		"prefix": "cp-repeat",
+		"body": [
+			"cp-repeat=\"obj in array\""
+		],
+		"description": "Possibilita duplicar elementos html de acordo com um array do seu escopo."
+	},
+	"cp-show": {
+		"prefix": "cp-show",
+		"body": [
+			"cp-show=\"\""
+		],
+		"description": "Possibilita mostrar ou ocultar elementos de acordo com uma condição"
+	},
+	"cp-src": {
+		"prefix": "cp-src",
+		"body": [
+			"cp-src=\"\""
+		],
+		"description": "Você pode adicionar ou remover dinâmicamente a utilização do src dentro do seu código."
+	},
+	"cp-style": {
+		"prefix": "cp-style",
+		"body": [
+			"cp-style=\"{ 'background' : 'red' }\""
+		],
+		"description": "Você pode modificar os style do seu componente dinâmicamente, através de outras diretivas como cp-click, inputs ou variáveis. "
+	}
+}

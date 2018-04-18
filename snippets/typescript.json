@@ -1,0 +1,105 @@
+{
+	"create component": {
+		"prefix": "capivara.component",
+		"body": [
+			"capivara.component('my-component', {", 
+			"\ttemplate: '<div>Uhaau! Esse é meu primeiro componente.</div>',", 
+			"\tconstants: [],",
+			"\tfunctions: [],",
+			"\tbindings: [],",
+			"\tcontroller: function() {",
+			"\t\tconst $$ctrl = this;",
+			"\n\t\t$$ctrl.$$onInit = () => console.log('Controller initiated!');",
+			"\n\t\t$$ctrl.$$onViewInit = () => console.log('Rendered view!');",
+			"\n\t\t$$ctrl.$$onChanges = (changes) => console.log('Changes Detected: ', changes);",
+			"\n\t\t$$ctrl.$$destroy = () => console.log('Component destroyed!');",			
+			"\t}",
+			"});"
+		],
+		"description": ""
+	},
+	"create componentBuilder": {
+		"prefix": "capivara.componentBuilder",
+		"body": [
+			"capivara.componentBuilder('my-component').build();"
+		],
+		"description": ""
+	},
+	"capivara isArray": {
+		"prefix": "capivara.isArray",
+		"body": [
+			"capivara.isArray();"
+		],
+		"description": "Determina se uma referência é um array, informe o valor a ser verificado por parâmetro."
+	},
+	"capivara isObject": {
+		"prefix": "capivara.isObject",
+		"body": [
+			"capivara.isObject();"
+		],
+		"description": "Determina se uma referência é um objeto, informe o valor a ser verificado por parâmetro."
+	},
+	"capivara isDate": {
+		"prefix": "capivara.isDate",
+		"body": [
+			"capivara.isDate();"
+		],
+		"description": "Determina se uma referência é uma data, informe o valor a ser verificado por parâmetro."
+	},
+	"capivara isElement": {
+		"prefix": "capivara.isElement",
+		"body": [
+			"capivara.isElement();"
+		],
+		"description": "Determina se uma referência é um NodeElement, informe o valor a ser verificado por parâmetro."
+	},
+	"capivara isString": {
+		"prefix": "capivara.isString",
+		"body": [
+			"capivara.isString();"
+		],
+		"description": "Determina se uma referência é uma string, informe o valor a ser verificado por parâmetro."
+	},
+	"capivara isFunction": {
+		"prefix": "capivara.isFunction",
+		"body": [
+			"capivara.isFunction();"
+		],
+		"description": "Determina se uma referência é uma função, informe o valor a ser verificado por parâmetro."
+	},
+	"capivara isNumber": {
+		"prefix": "capivara.isNumber",
+		"body": [
+			"capivara.isNumber();"
+		],
+		"description": "Determina se uma referência é um número, informe o valor a ser verificado por parâmetro."
+	},
+	"capivara copy": {
+		"prefix": "capivara.merge",
+		"body": [
+			"capivara.copy({},{});"
+		],
+		"description": "Você pode fazer a cópia de um objeto para que seja criado uma nova referência."
+	},
+	"capivara replaceAll": {
+		"prefix": "capivara.replaceAll",
+		"body": [
+			"capivara.copy('','','');"
+		],
+		"description": "Você pode fazer a cópia de um objeto para que seja criado uma nova referência."
+	},
+	"capivara $on": {
+		"prefix": "capivara.$on",
+		"body": [
+			"capivara.$$on('');"
+		],
+		"description": "Escutar um evento."
+	},	
+	"capivara $emit": {
+		"prefix": "capivara.$emit",
+		"body": [
+			"capivara.$$emit('', () => console.log('emit'));"
+		],
+		"description": "Emite um evento."
+	}
+}

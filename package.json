@@ -1,0 +1,29 @@
+{
+    "name": "capivarajs-snippets",
+    "displayName": "capivarajs-snippets",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "GUMGA",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/typescript.json"
+            }
+        ]
+    }
+}
