@@ -3,7 +3,7 @@
     "displayName": "capivarajs-snippets",
     "description": "",
     "version": "0.0.1",
-    "publisher": "GUMGA",
+    "publisher": "Capivarajs",
     "engines": {
         "vscode": "^1.22.0"
     },
